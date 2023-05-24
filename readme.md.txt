@@ -3,10 +3,10 @@
 A python program that generates programming quotes and jokes.
 
 ## Contributors
-- `initiator`: FOO Bar Group B
-- `contributor-1`: BAR Foo Group B
-- `contributor-2`: WIZZ Bang B 
-- `contributor-3`: TOTO Titi Group B 
+- `initiator`: Marley Menard INT2
+- `contributor-1`: Max Chartier INT2
+- `contributor-2`: Tristan Bordel INT2 
+- `contributor-3`: Loic Cupif INT2
 
 ## Fork urls
 - `contributor-1`: [quotes-chartier-int2](https://github.com/MaxChartier/quotes-Chartier-int2.git)
