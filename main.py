@@ -1,4 +1,4 @@
-from function import *
+from functions import *
 
 
 def menu():
@@ -6,7 +6,8 @@ def menu():
     print("1. Random quote")
     print("2. All quotes")
     print("3. Add a quote")
-    print("3. Exit")
+    print("4. Exit")
+    print("5. Print a number of quotes")
 
 
 def main():
@@ -14,7 +15,7 @@ def main():
         quotes = load_quotes("quotes.txt")
         menu()
 
-        choice = input("Choose your an action (1-3): ")
+        choice = input("Choose your an action (1-5): ")
         if choice == "1":
             print_quote(random_quote(quotes))
         elif choice == "2":
@@ -24,6 +25,9 @@ def main():
             break
         elif choice == "3":
             add_quote(quotes,"quotes.txt")
+        elif choice == "5": # gestion de display_count()
+            count = int(input("Enter the number of quotes to display: "))
+            display_quotes(quotes, count)
         else:
             print("Invalid input")
 
