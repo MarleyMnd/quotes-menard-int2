@@ -14,7 +14,6 @@ def main():
         menu()
 
         choice = input("Choose your an action (1-3): ")
-        add_quote(quotes,"quotes.txt")
         if choice == "1":
             print_quote(random_quote(quotes))
         elif choice == "2":
@@ -22,6 +21,8 @@ def main():
         elif choice == "3":
             print("Good bye...")
             break
+        elif choice == "4":
+            add_quote(quotes,"quotes.txt")
         else:
             print("Invalid input")
 
