@@ -6,7 +6,7 @@ A python program that generates programming quotes and jokes.
 - `initiator`: Marley Menard INT2
 - `contributor-1`: Max Chartier INT2
 - `contributor-2`: Tristan Bordel INT2 
-- `contributor-3`: Loic Cupif INT2
+- `contributor-3`: Loïc Cupif INT2
 
 ## Fork urls
 - `contributor-1`: [quotes-chartier-int2](https://github.com/MaxChartier/quotes-Chartier-int2.git)
